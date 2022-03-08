@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8a62af4-edc1-4216-848f-0c067645e19d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/anylangtech/test/Dijkstra.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/anylangtech/test/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anylangtech/test/Search.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/anylangtech/test/Search.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/anylangtech/test/Search.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anylangtech/test/Dijkstra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anylangtech/test/Dijkstra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/anylangtech/test/Dijkstra.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/anylangtech/test/Dijkstra.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,41 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="QuickSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/anylangtech/test/QuickSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1350">
-              <caret line="54" selection-start-line="54" selection-end-line="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Search.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/anylangtech/test/Search.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Dijkstra.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/anylangtech/test/Dijkstra.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="33" column="33" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="readme.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/readme.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="10" selection-start-column="10" selection-end-column="10" />
+            <state relative-caret-position="-591">
+              <caret line="29" column="57" lean-forward="true" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -70,9 +39,12 @@
     <findStrings>
       <find>,</find>
       <find>，</find>
+      <find>起点</find>
+      <find>终点</find>
     </findStrings>
     <replaceStrings>
       <replace>,</replace>
+      <replace>end</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -169,6 +141,11 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\test\demo" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -311,12 +288,20 @@
       <workItem from="1646442070000" duration="13922000" />
       <workItem from="1646474428807" duration="26000" />
       <workItem from="1646615719802" duration="12656000" />
-      <workItem from="1646701782634" duration="1631000" />
+      <workItem from="1646701782634" duration="3392000" />
     </task>
+    <task id="LOCAL-00001" summary="忽略文件">
+      <created>1646703562044</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1646703562044</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31411000" />
+    <option name="totallyTimeSpent" value="33172000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -331,8 +316,8 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.1825963" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.052781742" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.09557775" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.061340943" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.30813125" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -383,6 +368,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="忽略文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="忽略文件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -444,9 +433,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2150">
           <caret line="89" column="31" selection-start-line="89" selection-start-column="31" selection-end-line="89" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -529,13 +515,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/anylangtech/test/Dijkstra.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="33" column="33" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-591">
+          <caret line="29" column="57" lean-forward="true" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
         </state>
       </provider>
     </entry>
