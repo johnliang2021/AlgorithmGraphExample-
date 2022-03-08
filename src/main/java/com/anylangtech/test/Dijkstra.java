@@ -15,16 +15,16 @@ public class Dijkstra {
         Map<String, String> parents = new HashMap<>();
         // visited列表表示已经处理过的结点
         List<String> visited = new ArrayList<>();
-        // 取出未处理结点中花费最小的结点
+        // 找出一步能到达的最低开销结点
         String node = findLowestCost(costs, visited);
-        // 当存在未处理的结点或者不是终点时循环
+        // 当存在未处理的结点或者不是终点时循环以下操作
         while (node != null && graph.get(node) != null) {
             // 获取结点对应的消耗
             Integer cost = costs.get(node);
             // 获取该结点对应的邻居集合
-            Map<String, Integer> map = graph.get(node);
+            Map<String, Integer> neighbors = graph.get(node);
             // 遍历邻居集合，更新邻居的消耗和邻居的父节点
-            for (Map.Entry<String, Integer> n : map.entrySet()) {
+            for (Map.Entry<String, Integer> n : neighbors.entrySet()) {
                 Integer newCost = cost + n.getValue();
                 // 如果新的消耗小于原来的，则执行更新操作或者不包含在costs表中的，给它加入
                 if (!costs.containsKey(n.getKey()) || newCost < costs.get(n.getKey())) {
@@ -76,7 +76,7 @@ public class Dijkstra {
         graph.put("B", map3);
         graph.put("end", null);
 
-        // costs
+        /*// costs
         Map<String, Integer> costs = new HashMap<>();
         costs.put("A", 6);
         costs.put("B", 2);
@@ -86,7 +86,7 @@ public class Dijkstra {
         Map<String, String> parents = new HashMap<>();
         parents.put("A", "start");
         parents.put("B", "start");
-        parents.put("end", null);
+        parents.put("end", null);*/
 
         Dijkstra dijkstra = new Dijkstra();
         Integer cost = dijkstra.dijkstra(graph);
