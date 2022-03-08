@@ -5,11 +5,11 @@ import java.util.*;
 /**
  * @author
  * @version V1.0
- * @description 广度优先搜索
+ * @description 广度优先搜索,用于非加权图计算最短路径
  */
 public class Search {
     // 先定义实现图的数据结构
-    public static class Node implements Comparable<Node> {
+    public static class Node implements Comparable<Node>{
         private String name;
         private TreeSet<Node> set = new TreeSet<>();
 
@@ -52,13 +52,15 @@ public class Search {
         Node nodeG = new Node("G");
         Node nodeH = new Node("H");
         nodeA.getSet().add(nodeB);
-        nodeA.getSet().add(nodeC);
-        nodeB.getSet().add(nodeD);
-        nodeB.getSet().add(nodeE);
-        nodeC.getSet().add(nodeF);
-        nodeC.getSet().add(nodeG);
-        nodeD.getSet().add(nodeH);
-        nodeE.getSet().add(nodeH);
+//        nodeA.getSet().add(nodeC);
+//        nodeA.getSet().add(nodeH);
+//        nodeB.getSet().add(nodeD);
+//        nodeB.getSet().add(nodeE);
+//        nodeC.getSet().add(nodeF);
+//        nodeC.getSet().add(nodeG);
+//        nodeD.getSet().add(nodeH);
+//        nodeE.getSet().add(nodeH);
+        nodeB.getSet().add(nodeA);
         return nodeA;
     }
 
@@ -82,7 +84,7 @@ public class Search {
             // 先判断是否已经检查过
             if (!visited.contains(node)) {
                 // 只有没检查过时才执行判断是否为目标结点
-                if ("A".equals(node.getName())) {
+                if ("B".equals(node.getName())) {
                     // 如果是目标结点，返回true
                     System.out.println("目标结点是" + node.getName());
                     return true;
